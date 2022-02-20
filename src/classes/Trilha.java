@@ -29,7 +29,9 @@ public class Trilha {
 
         //TODO verificar no front se o usuario deseja cadastrar algum MÓDULO (0 ou mais)
         //TODO - Instanciar novos módulos relacionando com o atributo trilha_ID;
-        //"DB.add"(new Modulo(trilha_ID,"ocupação",nome)); - Criação de novo objeto trilha no banco de dados
+        //"DB.add"(new Modulo(trilha_ID,nome, habilidades, tarefa validacao, prazolimite, status));  TODO implementar com form no front;
+        // - Criação de novo objeto trilha no banco de dados
+
     }
 
     public void setSatisfacao(int satisfacao) {
